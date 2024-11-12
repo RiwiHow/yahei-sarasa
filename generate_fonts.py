@@ -73,7 +73,7 @@ def gen_regular():
     set_cleartype(font_ui)
     set_regular_ui_names(font_ui)
 
-    font_ui.generateTtc(conf.TEMP_DIR + '/segoeui.ttf')
+    font_ui.generate(conf.TEMP_DIR + '/segoeui.ttf')
 
 
 def gen_bold():
@@ -82,7 +82,7 @@ def gen_bold():
     set_cleartype(font_ui)
     set_bold_ui_names(font_ui)
 
-    font_ui.generateTtc(conf.TEMP_DIR + '/segoeuib.ttf')
+    font_ui.generate(conf.TEMP_DIR + '/segoeuib.ttf')
 
 
 def gen_light():
@@ -91,4 +91,4 @@ def gen_light():
     set_cleartype(font_ui)
     set_light_ui_names(font_ui)
 
-    font_ui.generateTtc(conf.TEMP_DIR + '/segoeuil.ttf')
+    font_ui.generate(conf.TEMP_DIR + '/segoeuil.ttf')
