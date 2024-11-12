@@ -1,5 +1,7 @@
+仅适用于默认语言是英文的 Windows 系统。Settings 之类的应用字体无法更改，因为更纱黑体没有提供可变字体版本
+---
 # 介绍
-本项目主要用于自动将更纱黑体转换为微软雅黑和宋体，它包含以下功能：
+本项目主要用于自动将更纱黑体转换为 Segoe UI，它包含以下功能：
 - 自动下载并解压最新的更纱黑体发行版
 - 使用 fontforge 篡改更纱黑体中的字体信息
 - 合并篡改后的文件，把它放到指定目录
@@ -32,9 +34,7 @@ HINTED  # 是否下载 Hinted 版本
 REGULAR_SOURCE  # 标准字体来源的文件名
 BOLD_SOURCE  # 粗体来源的文件名
 LIGHT_SOURCE  # 细体来源的文件名
-SIMSUN_SOURCE  # 宋体来源的文件名
 COPYRIGHT  # 字体的 Copyright
 TEMP_DIR  # 临时目录
 RESULT_DIR  # 结果目录
-OTHER_COPY  # 你想复制的其他文件到结果目录
 ```
