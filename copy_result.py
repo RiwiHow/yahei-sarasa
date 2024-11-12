@@ -6,6 +6,3 @@ def copy_result():
     shutil.copy(conf.TEMP_DIR + '/msyh.ttc', conf.RESULT_DIR)
     shutil.copy(conf.TEMP_DIR + '/msyhbd.ttc', conf.RESULT_DIR)
     shutil.copy(conf.TEMP_DIR + '/msyhl.ttc', conf.RESULT_DIR)
-
-    shutil.copy(conf.TEMP_DIR + '/simsun.ttc', conf.RESULT_DIR)
-    shutil.copy(conf.TEMP_DIR + '/simsunb.ttf', conf.RESULT_DIR)
