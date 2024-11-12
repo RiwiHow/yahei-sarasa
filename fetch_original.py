@@ -16,8 +16,8 @@ def get_latest():
 
     version = details['tag_name'][1:]
     name = (conf.HINTED
-            and 'Sarasa-TTF-' + version + '.7z'
-            or 'Sarasa-TTF-Unhinted-' + version + '.7z')
+            and 'SarasaUiSC-TTF-' + version + '.7z'
+            or 'SarasaUiSC-TTF-Unhinted-' + version + '.7z')
 
     assets = details['assets']
     for asset in assets:

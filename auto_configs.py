@@ -9,6 +9,3 @@ COPYRIGHT = 'Made from sarasa by chenh'  # 字体的 Copyright
 
 TEMP_DIR = './temp'  # 临时目录
 RESULT_DIR = './result'  # 结果目录
-
-OTHER_COPY = ('SarasaMonoSC-Regular.ttf', 'SarasaMonoSC-Bold.ttf',
-              'SarasaMonoSC-Italic.ttf', 'SarasaMonoSC-BoldItalic.ttf')  # 你想复制的其他文件到结果目录
