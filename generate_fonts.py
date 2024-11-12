@@ -20,56 +20,50 @@ def get_version(font):
 
 
 def set_regular_ui_names(font):
-    font.fontname = 'MicrosoftYaHeiUI'
-    font.familyname = 'Microsoft YaHei UI'
-    font.fullname = 'Microsoft YaHei UI'
+    font.fontname = 'SegoeUI'
+    font.familyname = 'Segoe UI'
+    font.fullname = 'Segoe UI'
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
-        ('English (US)', 'Family', 'Microsoft YaHei UI'),
-        ('English (US)', 'Fullname', 'Microsoft YaHei UI'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei UI'),
+        ('English (US)', 'Family', 'Segoe UI'),
+        ('English (US)', 'Fullname', 'Segoe UI'),
+        ('English (US)', 'UniqueID', 'Segoe UI Regular'),
         ('English (US)', 'SubFamily', 'Regular'),
         ('English (US)', 'Version', get_version(font)),
-        ('English (US)', 'Copyright', conf.COPYRIGHT),
-        ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI')
+        ('English (US)', 'Copyright', conf.COPYRIGHT)
     )
 
 
 def set_bold_ui_names(font):
-    font.fontname = 'MicrosoftYaHeiUIBold'
-    font.familyname = 'Microsoft YaHei UI'
-    font.fullname = 'Microsoft YaHei UI Bold'
+    font.fontname = 'SegoeUI-Bold'
+    font.familyname = 'Segoe UI'
+    font.fullname = 'Segoe UI Bold'
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
-        ('English (US)', 'Family', 'Microsoft YaHei UI'),
-        ('English (US)', 'Fullname', 'Microsoft YaHei UI Bold'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei UI Bold'),
+        ('English (US)', 'Family', 'Segoe UI'),
+        ('English (US)', 'Fullname', 'Segoe UI Bold'),
+        ('English (US)', 'UniqueID', 'Segoe UI Bold'),
         ('English (US)', 'SubFamily', 'Bold'),
         ('English (US)', 'Version', get_version(font)),
-        ('English (US)', 'Copyright', conf.COPYRIGHT),
-        ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI Bold')
+        ('English (US)', 'Copyright', conf.COPYRIGHT)
     )
 
 
 def set_light_ui_names(font):
-    font.fontname = 'MicrosoftYaHeiUILight'
-    font.familyname = 'Microsoft YaHei UI'
-    font.fullname = 'Microsoft YaHei UI Light'
+    font.fontname = 'SegoeUI-Light'
+    font.familyname = 'Segoe UI Light'
+    font.fullname = 'Segoe UI Light'
     font.version = get_version(font)
     font.copyright = conf.COPYRIGHT
     font.sfnt_names = (
-        ('English (US)', 'Family', 'Microsoft YaHei UI'),
-        ('English (US)', 'Fullname', 'Microsoft YaHei UI Light'),
-        ('English (US)', 'UniqueID', 'Microsoft YaHei UI Light'),
-        ('English (US)', 'SubFamily', 'Light'),
+        ('English (US)', 'Family', 'Segoe UI Light'),
+        ('English (US)', 'Fullname', 'Segoe UI Light'),
+        ('English (US)', 'UniqueID', 'Segoe UI Light'),
+        ('English (US)', 'SubFamily', 'Regular'),
         ('English (US)', 'Version', get_version(font)),
-        ('English (US)', 'Copyright', conf.COPYRIGHT),
-        ('Chinese (PRC)', 'Family', '微软雅黑 UI'),
-        ('Chinese (PRC)', 'Fullname', '微软雅黑 UI Light')
+        ('English (US)', 'Copyright', conf.COPYRIGHT)
     )
 
 
