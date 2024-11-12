@@ -3,6 +3,6 @@ import auto_configs as conf
 
 
 def copy_result():
-    shutil.copy(conf.TEMP_DIR + '/msyh.ttc', conf.RESULT_DIR)
-    shutil.copy(conf.TEMP_DIR + '/msyhbd.ttc', conf.RESULT_DIR)
-    shutil.copy(conf.TEMP_DIR + '/msyhl.ttc', conf.RESULT_DIR)
+    shutil.copy(conf.TEMP_DIR + '/segoeui.ttf', conf.RESULT_DIR)
+    shutil.copy(conf.TEMP_DIR + '/segoeuib.ttf', conf.RESULT_DIR)
+    shutil.copy(conf.TEMP_DIR + '/segoeuil.ttf', conf.RESULT_DIR)
